@@ -1,0 +1,102 @@
+/* Background */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea, yellow);
+  /* background-color: black; */
+}
+.head{
+  color: darkmagenta;
+}
+
+/* Glass Form */
+form {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 35px;
+  width: 350px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+  color: darkmagenta;
+}
+
+/* Heading (optional) */
+form::before {
+  content: "Login";
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Labels */
+label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 15px 0;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  background: rgba(255,255,255,0.2);
+  color: black;
+  transition: 0.3s;
+}
+
+/* Placeholder */
+input::placeholder {
+  color: lightsalmon;
+}
+
+/* Focus effect */
+input:focus {
+  background: rgba(255,255,255,0.3);
+  box-shadow: 0 0 10px rgba(255,255,255,0.4);
+}
+
+/* Error text */
+p {
+  color: #ff6b6b;
+  font-size: 12px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+.cap{
+  font-size: 20px;
+  color: darkmagenta;
+}
+/* Button */
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #ff7eb3, #ff758c);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Button hover */
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* CAPTCHA center */
+.recaptcha {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
