@@ -16,7 +16,7 @@ body {
 /* Glass Form */
 form {
   background: rgba(255, 255, 255, 0.15);
-  padding: 35px;
+  padding: 18px;
   width: 350px;
   border-radius: 15px;
   backdrop-filter: blur(10px);
