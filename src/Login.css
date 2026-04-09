@@ -7,10 +7,17 @@ body {
   justify-content: center;
   align-items: center;
   background: linear-gradient(135deg, #667eea, yellow);
+  background-image: url(./images/bag.jpg);
+  animation: zoomBg 18s ease-in-out infinite;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
   /* background-color: black; */
 }
+
 .head{
-  color: darkmagenta;
+  color: white;
 }
 
 /* Glass Form */
@@ -21,7 +28,8 @@ form {
   border-radius: 15px;
   backdrop-filter: blur(10px);
   box-shadow: 0 8px 32px rgba(0,0,0,0.2);
-  color: darkmagenta;
+  color: white;
+  font-size: 23px;
 }
 
 /* Heading (optional) */
@@ -73,7 +81,7 @@ p {
 }
 .cap{
   font-size: 20px;
-  color: darkmagenta;
+  color: white;
 }
 /* Button */
 button {
